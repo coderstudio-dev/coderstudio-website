@@ -53,13 +53,13 @@ const SERVICES = [
     tag: "SECURITY",
     title: "Cybersecurity",
     description:
-      "Continuous monitoring, patching, and incident response with a <15-minute median. You sleep; we watch the perimeter.",
+      "AI-driven threat detection paired with continuous monitoring, patching, and incident response — a <15-minute median. You sleep; we watch the perimeter.",
   },
   {
     tag: "BUILD",
     title: "Custom development",
     description:
-      "Software that fits the way you actually work — shipped in two-week sprints, not open-ended quarters.",
+      "Software that fits the way you actually work — built with AI-assisted development and shipped in two-week sprints, not open-ended quarters.",
   },
   {
     tag: "HOSTING",
@@ -71,7 +71,7 @@ const SERVICES = [
     tag: "DEVEX",
     title: "Developer experience",
     description:
-      "Golden paths, CI/CD, and tooling your engineers actually enjoy — the difference between shipping weekly and shipping when you can.",
+      "Golden paths, CI/CD, and AI-assisted tooling your engineers actually enjoy — the difference between shipping weekly and shipping when you can.",
   },
   {
     tag: "SCALE",
