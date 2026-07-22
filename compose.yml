@@ -1,0 +1,11 @@
+services:
+  web:
+    image: ghcr.io/coderstudio-dev/coderstudio-website:main
+    ports:
+      - "3300:3000"
+    environment:
+      - NODE_ENV=production
+      - RESEND_API_KEY=${RESEND_API_KEY}
+      - RESEND_FROM_EMAIL=${RESEND_FROM_EMAIL}
+      - CONTACT_NOTIFY_EMAIL=${CONTACT_NOTIFY_EMAIL}
+    restart: unless-stopped
